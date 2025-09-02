@@ -6,7 +6,7 @@ This script creates a new "Bug" work item and a matching branch in the current g
 
 ## Installation
 
-Download the latest version of the script and move it to a directory within your PATH.
+[Download](https://github.com/GaetanTrema/az-hotfix-generator/releases) the latest version of the script and move it to a directory within your PATH.
 
 ```bash
 mv azbugfix /usr/local/bin
