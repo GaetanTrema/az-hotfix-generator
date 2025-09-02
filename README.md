@@ -1,0 +1,15 @@
+# Azure DevOps Hotfix work item creator
+
+## Description
+
+This script creates a new "Bug" work item and a matching branch in the current git repository.
+
+## Installation
+
+Download the latest version of the script and move it to a directory within your PATH.
+
+```bash
+mv azbugfix /usr/local/bin
+```
+
+Create and fill the .env.hotfix file by copying the .env.hotfix.dist file.
