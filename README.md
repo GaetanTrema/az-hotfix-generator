@@ -9,7 +9,7 @@ This script creates a new "Bug" work item and a matching branch in the current g
 [Download](https://github.com/GaetanTrema/az-hotfix-generator/releases) the latest version of the script and move it to a directory within your PATH.
 
 ```sh
-mv azbugfix /usr/local/bin
+mv azhotfix /usr/local/bin
 ```
 
 Create and fill the .env.hotfix file by copying the .env.hotfix.dist file.
@@ -17,5 +17,5 @@ Create and fill the .env.hotfix file by copying the .env.hotfix.dist file.
 ## Usage
 
 ```sh
-azbugfix --title "The work item title" --description "This text will fill the Steps-to-Reproduce field"
+azhotfix --title "The work item title" --description "This text will fill the Steps-to-Reproduce field"
 ```
