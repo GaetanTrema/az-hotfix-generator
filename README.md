@@ -16,6 +16,8 @@ Create and fill the .env.hotfix file by copying the .env.hotfix.dist file.
 
 ## Usage
 
+You must be logged in with `az login` in order to run this command.
+
 ```sh
 azhotfix --title "The work item title" --description "This text will fill the Steps-to-Reproduce field"
 ```
